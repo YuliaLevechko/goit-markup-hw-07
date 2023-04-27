@@ -62,8 +62,8 @@ background-color: var(--white-bgc-header-teamcard-color);
 
 .container {
         width: 100%;
-        padding-left: 15px;
-        padding-right: 15px;
+        padding-left: 10px;
+        padding-right: 10px;
 }
 /* ----------------------header---------------------- */
 .header {
@@ -280,7 +280,7 @@ background-color: var(--white-bgc-header-teamcard-color);
         padding-bottom: 96px;
 }
 .feature-item {
-        width: 396px;
+        width: 100%;
         margin-bottom: 72px;
         }
 .feature-item:last-child {
@@ -325,7 +325,7 @@ background-color: var(--white-bgc-header-teamcard-color);
         margin-bottom: 72px;
 }
 .team-item {
-        width: 264px;
+        max-width: 264px;
         background-color: var(--white-bgc-header-teamcard-color);
         display: flex;
         flex-direction: column;
@@ -336,6 +336,9 @@ background-color: var(--white-bgc-header-teamcard-color);
         margin-bottom: 72px;
         margin-right: auto;
         margin-left: auto;
+}
+.team-item:last-child {
+        margin-bottom: 0;
 }
 .team-item-content {
         padding: 32px 16px;
@@ -389,7 +392,7 @@ background-color: var(--white-bgc-header-teamcard-color);
         padding-bottom: 96px;
 }
 .customers-title {
-        font-size: 36px;
+        font-size: 32px;
         line-height: 1.11;
         letter-spacing: 0.02em;
         text-transform: capitalize;
@@ -461,7 +464,7 @@ background-color: var(--white-bgc-header-teamcard-color);
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: var(--cloud-light-bgc-footertext-color);
-        width: 268px;
+        max-width: 268px;
         margin: 16px auto 0;
 }
 .container-soc-icon {
@@ -778,6 +781,8 @@ background-color: var(--white-bgc-header-teamcard-color);
         .container {
                 width: 428px;
                 margin: 0 auto;
+                padding-left: 15px;
+                padding-right: 15px;
         }
 /* header */
         .menu-phone {
@@ -801,6 +806,25 @@ background-color: var(--white-bgc-header-teamcard-color);
         .hero-title {
                 font-size: 36px;
         }
+/* feature */
+        .feature-item {
+                width: 396px;
+        }
+        .feature-desc {
+
+        }
+/* team */
+        .team-item {
+                width: 264px; 
+}
+/* customers */
+        .customers-title {
+                font-size: 36px;
+        }
+/* footer */
+.footer-text {
+        width: 268px;
+}
 /* modal */
 .modal {
         width: 392px;
@@ -945,7 +969,7 @@ background-color: var(--white-bgc-header-teamcard-color);
                 flex-wrap: wrap;
                 justify-content: start;
                 margin: 0 auto;
-                width: 590px;
+                width: 580px;
         }
         .footer-logo {
                 justify-content: start;
