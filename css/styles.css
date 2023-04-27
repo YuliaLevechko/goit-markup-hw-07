@@ -944,6 +944,8 @@ background-color: var(--white-bgc-header-teamcard-color);
                 display: flex;
                 flex-wrap: wrap;
                 justify-content: start;
+                margin: 0 auto;
+                width: 590px;
         }
         .footer-logo {
                 justify-content: start;
