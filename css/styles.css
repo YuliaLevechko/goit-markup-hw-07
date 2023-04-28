@@ -943,6 +943,9 @@ background-color: var(--white-bgc-header-teamcard-color);
                 width: 356px;
                 margin-bottom: 0;
                 }
+        .feature-title {
+                text-align: start;
+        }
 /* team */
 .team-list {
         display: flex;
@@ -1179,6 +1182,7 @@ background-color: var(--white-bgc-header-teamcard-color);
                 }
         .footer-logo-container {
                 margin-right: 120px;
+                margin-bottom: 0;
         }
         .container-soc-icon {
                 margin-right: 80px;
